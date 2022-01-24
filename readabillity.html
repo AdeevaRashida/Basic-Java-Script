@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Readabillity</title>
+</head>
+<body>
+    <script>
+        // Whitespaces
+        // BAD
+        const userLocation1    =    "New York City, "    +    "NY";
+        const userLocation2="New York City, "+"NY";
+        // GOOD
+        const userLocation3 = "New York City, " + "NY";
+
+        // Semicolons
+        // GOOD
+        const name1 = "IDN Boarding School";
+        const name2 = "SMK IDN";
+        // OR
+        const name1 = "IDN Boarding School"
+        const name2 = "SMK IDN"
+        // It works but not recommended
+        const name1 = "IDN Boarding School"; const name2 = "SMK IDN";
+        // BAD (inconsistent)
+        const name1 = "IDN Boarding School"; const name2 = "SMK IDN"
+
+        
+
+    </script>
+</body>
+</html>
